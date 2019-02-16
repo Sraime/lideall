@@ -1,1 +1,36 @@
-@import "../../node_modules/siimple/index.scss";
+$primary: #3661AF;
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-steps-component/bulma-steps.sass";
+
+$dicord-blue-color: #7289da;
+
+.discord-button {
+    background-color: #7289da;
+    border: none;
+    color: white;
+    .fa-discord {
+        margin-right: 3px;
+    }
+}
+
+.app-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#why-section {
+    .card {
+        height: 200px;
+    }
+}
+
+#what-section {
+    .card {
+        height: 200px;
+    }
+}
+
+#how-lideal {
+    display: flex;
+    justify-content: space-between;
+}

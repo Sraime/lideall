@@ -1,7 +1,9 @@
+const path = require('path')
+
 const DefaultController = {
 
     homepage: function(req, res) {
-        res.sendFile('../../dist/html/homepage.html')
+        res.sendFile(path.join(__dirname, '../../dist/html/homepage.html'));
     }
 }
 

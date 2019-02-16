@@ -38,5 +38,6 @@ task('watch', () => {
   watch(['public/styles/*.scss'], parallel(['scss']));
   watch(['public/js/*.js'], parallel(['js']));
   watch(['public/html/*.html'], parallel(['html']));
+  watch(['public/images/*'], parallel(['images']));
 });
 
